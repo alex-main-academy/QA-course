@@ -3913,7 +3913,7 @@ body.container-scroll .menu__nav {
     .menu__planet {
         position: absolute;
         top: 50%;
-        left: 0;
+        left: 2.5rem;
         -webkit-transform: translate(-86%, -50%);
         transform: translate(-86%, -50%);
         display: block;
