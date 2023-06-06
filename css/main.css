@@ -2576,7 +2576,7 @@ body.container-scroll .menu__nav {
 }
 
 .pay__item {
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 24px) / 2);
     min-height: 252px;
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(15px);
@@ -2589,7 +2589,7 @@ body.container-scroll .menu__nav {
 
 @media screen and (max-width:1200px) {
     .pay__item {
-        width: calc((100% - 40px) / 3);
+        width: calc((100% - 20px) / 2);
         padding: 31px 18px 21px 30px;
         min-height: 270px;
     }
@@ -2628,9 +2628,14 @@ body.container-scroll .menu__nav {
     line-height: 22px;
 }
 
+.pay__desc span {
+    color: #9AB4F8;
+}
+
 @media screen and (max-width:767px) {
     .pay__desc {
-        max-width: 200px;
+        max-width: 20rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -4483,5 +4488,12 @@ body.container-scroll .menu__nav {
         padding: 24px 0;
         width: 100%;
         text-align: center;
+    }
+}
+
+
+@media screen and (min-height:800px) and (min-width:1200px) {
+    .faq .container {
+        padding-top: 15rem !important;
     }
 }
